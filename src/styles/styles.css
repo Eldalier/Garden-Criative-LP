@@ -2,6 +2,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+@font-face {
+    font-family: "fonte-titulo";
+    src: url(/src/fonts/font-titulo.otf ) format("otf");
+  
+   
+}
+
+
 * {
     font-family: "Parkinsans", sans-serif;
     margin: 0;
@@ -10,7 +18,7 @@
 }
 
 body {
-    background-color: #678a50
+    background-color: #ffffff
 }
 
 /*home */
@@ -27,8 +35,13 @@ body {
     display: flex;
     flex-direction: column;
     gap: 28px;
-    margin-top: 8%;
+    margin-top: 5%;
     margin-left: 2%;
+
+}
+
+#home {
+    background-color: #d5d5d5 ;
 }
 
 #cta .title {
@@ -40,7 +53,7 @@ body {
 
 
 #cta .title span {
-    color: #ffffff;
+    color: #678a50;
 }
 
 #cta .description {
@@ -48,14 +61,14 @@ body {
 }
 
 #banner {
-    margin-left: 500px;
-    margin-top: -495px;
+    margin-left: 750px;
+    margin-top: -430px;
     align-items: start;
     justify-content: end;
 }
 
 #banner img {
-    height: 100%;
+    height: 40vw;
     width: fit-content;
     z-index: 2;
 }
@@ -72,7 +85,7 @@ body {
     justify-content: center;
     width: 45px;
     height: 40px;
-    background-color: #ffffffb1;
+    background-color: #ffffff;
     font-size: 1.25rem;
     border-radius: 10px;
     text-decoration: none;
@@ -108,12 +121,19 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #678a50;
+    border-radius: 5px;
+   
 }
 
-#nav_logo {
+/* Titulo nav-bar */
+
+#nav_titulo {
     font-size: 40px;
-    color: rgb(255, 255, 255);
-    font-family: "Parkinsans", sans-serif;
+    color: #ffffff;
+    text-decoration: solid;
+    font-family: Parkinsans;
+   
 }
 
 #nav_list {
@@ -155,13 +175,13 @@ header {
     align-items: center;
     margin-right: 5%;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.699);
+    background-color: #ffffff;
     border-radius: 12px ;
     padding: 10px 14px;
     font-weight: 600;
     box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.551);
     transition: background-color .3s ease ;
-    color: #ffffff;
+    color: #678a50;
 }
 .btn-default a {
     cursor: pointer;
