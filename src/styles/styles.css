@@ -129,10 +129,11 @@ header {
 /* Titulo nav-bar */
 
 #nav_titulo {
-    font-size: 40px;
+    font-size: 60px;
     color: #ffffff;
     text-decoration: solid;
-    font-family: Parkinsans;
+    font-family: "Parkinsans";
+    
    
 }
 
