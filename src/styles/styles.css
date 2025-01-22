@@ -122,7 +122,7 @@ header {
     align-items: center;
     justify-content: space-between;
     background-color: #678a50;
-    border-radius: 5px;
+    border-radius: 10px;
     
    
 }
@@ -260,6 +260,21 @@ header {
             text-align: center;
             align-items: center;
         }
+
+/* Page 2 conheça mais */
+
+.conheça {
+
+    font-size: 400px;
+    color: #d5d5d5;
+
+
+}
+
+
+
+
+
     }
         
       
